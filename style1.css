@@ -1,0 +1,207 @@
+body {
+    background: black;
+}
+
+h1 {
+    font-family: 'Princess Sofia', cursive;
+    font-size: 5vw;
+    margin-bottom: 0vw;
+    padding-bottom: 0vw;
+}
+
+.brand > h2 {
+    font-family: 'Cinzel Decorative', cursive;
+    color: whitesmoke;
+    font-variant: small-caps;
+    text-transform: capitalize;
+    font-size: 2vw;
+    padding-bottom: 4vw;
+}
+
+.brand h5 {
+    font-family: 'Cinzel', cursive;
+    color: rgb(153, 166, 55);
+    letter-spacing: .3rem;
+    font-size: 1vw;
+    padding-top: .5vw;
+}
+
+.brand .title {
+    font-family: 'Cinzel Decorative', cursive;
+    color: whitesmoke;
+    font-variant: small-caps;
+    text-transform: capitalize;
+    font-weight: lighter;
+    letter-spacing: .2rem;
+    font-size: 1.2vw;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 2vw;
+}
+
+.section .title {
+    font-family: 'Cinzel', cursive;
+    color: rgb(153, 166, 55);
+    font-variant: small-caps;
+    text-transform: capitalize;
+    font-weight: lighter;
+    letter-spacing: .3rem;
+    font-size: 2vw;
+}
+
+.main .section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.section p {
+    font-size: 1.2vw;
+    line-height: 1.5;
+}
+
+.primary-color {
+    color: rgb(153, 166, 55);
+}
+
+.secondary-color {
+    color: rgb(36, 109, 94);
+}
+
+
+.logo > img {
+    float: left;
+    position: top left;
+    width: 15vw;
+}
+
+.money-pic img {
+    width: 100%;
+}
+
+.culture-pic img {
+    width: 100%;
+}
+
+.language-pic img {
+    width: 50%;
+}
+
+hr {
+    width: 70%;
+    border: 1px solid whitesmoke;
+    
+}
+
+.money {
+    background: linear-gradient(
+        75deg,
+        rgb(153, 166, 55),
+        rgb(36, 109, 94)
+    );
+}
+
+.culture {
+    background: linear-gradient(
+        75deg,
+        rgb(36, 109, 94),
+        black
+        
+    );
+}
+
+.language {
+    background: linear-gradient(
+        75deg,
+        black,
+        rgb(153, 166, 55)
+    );
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+#nav-tabs h3 {
+    font-family: 'Cinzel Decorative', cursive;
+    color: whitesmoke;
+    font-variant: small-caps;
+    text-transform: capitalize;
+    font-weight: lighter;
+    letter-spacing: .3rem;
+    font-size: 3rem;
+}
+
+#nav-tabs p {
+    color: whitesmoke;
+    font-size: 1rem;
+}
+
+.navbar-translate img {
+    width: 8vw;
+}
+
+.navbar-color-on-scroll {
+    background: black !important;
+    color: white;
+}
+
+.subscribe {
+    
+}
+
+.inline {
+    display: inline;
+    padding-left: .2vw;
+}
+
+.btn {
+    background: linear-gradient(
+        75deg,
+        rgb(153, 166, 55),
+        rgb(36, 109, 94)
+    );
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.btn:hover {
+    background: linear-gradient(
+        to top left,
+        rgb(153, 166, 55),
+        rgb(36, 109, 94)
+    );
+}
+
+.card.small {
+    width: 50vw;
+    height: 100%;
+}
+
+
+
+.language-pic {
+    object-fit: cover;
+}
+
+.quote {
+    background: black;
+    color: whitesmoke;
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.footer {
+    background: linear-gradient(
+        75deg,
+        rgb(153, 166, 55),
+        rgb(36, 109, 94)
+    );
+}
+
+p.explain {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    letter-spacing: .5px;
+}
+
